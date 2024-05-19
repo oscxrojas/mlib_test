@@ -3,6 +3,9 @@
 Candidato: **Oscar Rojas**<br>
 País: **Colombia 🇨🇴**
 
+## Base script
+El script base para esta prueba se encuentra en `src/main.py`. Al correr este proceso, el resultado se almacenará en `src/outputs`.
+
 ## Hallazgos
 1. Existen registros que muestran pagos que no se relacionan con ningún click.
 2. En entornos digitales, puerta abierta 24 horas, existe la probabilidad de que una impresión del día anterior cause una compra el día presente; más que nada en momentos cercanos a la media noche. Conservar la hora de los eventos podría se util; de igual manera, conocer el id de la impresión que correlacione los datos podría ayudarnos en esta tarea.
