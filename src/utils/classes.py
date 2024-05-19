@@ -226,7 +226,8 @@ class ADSData:
         ).select(
             [
                 "date", "user_id", "value_prop", "impressions", "clicks", "payments_qty", "total",
-                "impressions_prev_21_days", "clicks_prev_21_days", "payments_prev_21_days", "total_prev_21_days"
+                f"impressions_prev_{lookback_days}_days", f"clicks_prev_{lookback_days}_days",
+                f"payments_prev_{lookback_days}_days", f"total_prev_{lookback_days}_days"
             ]
         ).fill_null(0)
 
