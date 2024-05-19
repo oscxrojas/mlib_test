@@ -2,7 +2,7 @@ from polars import datatypes
 
 INPUT_DATA = {
     "impressions": {
-        "file_path": "test_data/prints.json",
+        "file_path": "input/for_testing_purposes/prints.json",
         "file_extension": "jsonl",
         "data_schema": {
             "day": datatypes.Date,
@@ -16,7 +16,7 @@ INPUT_DATA = {
         "group_by_columns": ["date", "user_id", "value_prop"]
     },
     "clicks": {
-        "file_path": "test_data/taps.json",
+        "file_path": "input/for_testing_purposes/taps.json",
         "file_extension": "jsonl",
         "data_schema": {
             "day": datatypes.Date,
@@ -30,7 +30,7 @@ INPUT_DATA = {
         "group_by_columns": ["date", "user_id", "value_prop"]
     },
     "payments": {
-        "file_path": "test_data/pays.csv",
+        "file_path": "input/for_testing_purposes/pays.csv",
         "file_extension": "csv",
         "data_schema": {
             "pay_date": datatypes.Date,
