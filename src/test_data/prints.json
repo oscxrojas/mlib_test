@@ -1,0 +1,13 @@
+{"day":"2020-11-30","event_data":{"position":0,"value_prop":"cellphone_recharge"},"user_id":1}
+{"day":"2020-11-29","event_data":{"position":0,"value_prop":"cellphone_recharge"},"user_id":2}
+{"day":"2020-11-28","event_data":{"position":0,"value_prop":"cellphone_recharge"},"user_id":2}
+{"day":"2020-11-27","event_data":{"position":0,"value_prop":"cellphone_recharge"},"user_id":2}
+{"day":"2020-11-21","event_data":{"position":0,"value_prop":"cellphone_recharge"},"user_id":2}
+{"day":"2020-11-07","event_data":{"position":0,"value_prop":"cellphone_recharge"},"user_id":2}
+{"day":"2020-11-28","event_data":{"position":0,"value_prop":"credits_consumer"},"user_id":2}
+{"day":"2020-11-28","event_data":{"position":0,"value_prop":"prepaid"},"user_id":3}
+{"day":"2020-11-27","event_data":{"position":0,"value_prop":"prepaid"},"user_id":3}
+{"day":"2020-11-26","event_data":{"position":0,"value_prop":"prepaid"},"user_id":3}
+{"day":"2020-11-26","event_data":{"position":0,"value_prop":"point"},"user_id":4}
+{"day":"2020-11-27","event_data":{"position":0,"value_prop":"point"},"user_id":5}
+{"day":"2019-11-27","event_data":{"position":0,"value_prop":"point"},"user_id":5}
