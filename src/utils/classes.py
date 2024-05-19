@@ -100,7 +100,7 @@ class ADSData:
             return data
 
         else:
-            raise Exception(f"The file format {kwargs["file_extension"]} is not supported.")
+            raise Exception(f"The file format {kwargs['file_extension']} is not supported.")
 
     def _get_data(self) -> dict[str, pl.LazyFrame]:
         """
