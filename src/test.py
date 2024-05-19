@@ -53,7 +53,7 @@ if __name__ == '__main__':
             ).sort(pl.col("date"), descending=True)
         )
 
-        real: pl.DataFrame = pl.read_ndjson("data/prints.json", schema=INPUT_DATA["impressions"]["data_schema"])
+        real: pl.DataFrame = pl.read_ndjson("input/prints.json", schema=INPUT_DATA["impressions"]["data_schema"])
         max_day: datetime = real.get_column("day").max()
         min_day: datetime = max_day - timedelta(days=6)
         print(min_day)
