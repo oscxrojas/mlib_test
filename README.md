@@ -4,7 +4,8 @@ Candidato: **Oscar Rojas**<br>
 País: **Colombia 🇨🇴**
 
 ## Base script
-El script base para esta prueba se encuentra en `src/main.py`. Al correr este proceso, el resultado se almacenará en `src/outputs`.
+El script base para esta prueba se encuentra en `src/main.py`. Al correr este proceso, el resultado se almacenará en `src/outputs`.<br>
+También es buena idea ejecutar `pip3 install -r requirements.txt` para instalar las dependencias, antes de ejecutar el python script.
 
 ## Hallazgos
 1. Existen registros que muestran pagos que no se relacionan con ningún click.
